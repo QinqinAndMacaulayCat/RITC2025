@@ -1,0 +1,36 @@
+
+[project]
+name = "RITC"
+version = "0.1.0"
+description = "Algorithmic trading toolkit: order books, portfolio management, data fetching, volatility analysis, and utilities."
+authors = [
+	{ name = "DQ" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/yourusername/RITC"
+repository = "https://github.com/yourusername/RITC"
+
+[tool.setuptools.packages.find]
+where = ["RITC"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.dependencies]
+numpy = ">=1.21"
+pandas = ">=1.3"
+requests = ">=2.26"
+matplotlib = ">=3.4"
+statsmodels = ">=0.13"
+arch = ">=5.0"
+scipy = ">=1.7"
