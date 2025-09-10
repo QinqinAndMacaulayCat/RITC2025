@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# config
+config.ini
+
+# IDEs 
+.vscode/
+.idea/
